@@ -1,0 +1,163 @@
+	@import "../static/css/simplepro.css";
+	
+	@font-face {
+		font-family: texticons;
+		font-weight: normal;
+		font-style: normal;
+		src: url('https://at.alicdn.com/t/font_984210_5cs13ndgqsn.ttf') format('truetype');
+	}
+	
+	view.my-card-des {
+		font-size: 55upx;
+	}
+	
+	.my-train-des {
+		font-weight: 800;
+		font-size: 35rpx;
+	}
+	
+	.my-common-mt{
+		margin-top: 60rpx !important;
+	}
+	
+	.my-common-mb {
+		margin-bottom: 32rpx !important;
+	}
+	
+	.navigat-arrow {
+		height: 90upx;
+		width: 40upx;
+		line-height: 90upx;
+		font-size: 35rpx;
+		/*color: white;*/
+		font-weight: 900;
+		margin-left: 250rpx;
+		font-family: texticons;
+	}
+	
+	.my-card-navigat-arrow {
+		display: inline-block;
+		vertical-align: middle;
+		height: 90upx;
+		width: 40upx;
+		line-height: 90upx;
+		font-size: 45rpx;
+		font-weight: 900;
+		margin-left: 530rpx;
+		padding-top: 0;
+		font-family: texticons;
+	}
+	
+	.my-card-navigat-add {
+		display: inline-block;
+		vertical-align: middle;
+		height: 90upx;
+		width: 40upx;
+		line-height: 90upx;
+		font-size: 80rpx !important;
+		font-weight: 900;
+		margin-left: 530rpx;
+		padding-top: 0;
+		font-family: texticons;
+	}
+	.my-bg-green {
+	  border: 0;
+	  background-color: #3cb371;
+	  color: #fff;
+	  -webkit-background-clip: padding-box;
+	  background-clip: padding-box; }
+	
+	.my-bg-green:not(.disabled):not(:disabled):active, .has-bg-green.active {
+	  background: #576B95 !important;
+	  color: rgba(255, 255, 255, 0.6) !important;
+	  -webkit-background-clip: padding-box;
+	  background-clip: padding-box; 
+	 }
+	 
+	 .my-deco-box {
+		 position: absolute;
+		 background-color: #ee7942;
+		 width: 3.5%;
+		 height: 4.5%;
+		 border-radius: 25rpx;
+		 display: inline-block;
+		 vertical-align: top;
+	 }
+	 
+	 .my-box-shadow-green {
+		 box-shadow: 0 0 .5px 1px #B2B2B2;
+		 border-radius: 15upx;
+	 }
+	 
+	 .my-deco-box-text {
+		 position: relative;
+		 left: 7%;
+		 display: inline-block;
+		 font-weight: 500;
+		 font-size: 45rpx;
+		 line-height: 57upx;
+	 }
+	 
+	 text {
+		margin-top: 0;
+		padding-top: 0;
+		border-top: 0;
+	 }
+	 
+	 .my-bg-blue {
+	   border: 0;
+	   background-color: #0bb4a3;
+	   color: #fff;
+	   -webkit-background-clip: padding-box;
+	   background-clip: padding-box;
+	 }
+	 
+	 .my-bg-blue:not(.disabled):not(:disabled):active, .my-bg-blue.active , .my-card-selected{
+	   background: #576B95 !important;
+	   color: rgba(255, 255, 255, 0.5) !important;
+	   -webkit-background-clip: padding-box;
+	   background-clip: padding-box;
+	 }
+	 
+	 .my-bg-purple {
+	   border: 0;
+	   background-color: #7a67ee;
+	   color: #fff;
+	   -webkit-background-clip: padding-box;
+	   background-clip: padding-box;
+	 }
+	 
+	 .my-bg-purple:not(.disabled):not(:disabled):active, .my-bg-purple.active {
+	   background: #483d8b !important;
+	   color: rgba(255, 255, 255, 0.6) !important;
+	   -webkit-background-clip: padding-box;
+	   background-clip: padding-box;
+	 }
+	 
+	 .my-bg-bg {
+	   border: 0;
+	   background-color: #8BC34A;
+	   color: #fff;
+	   -webkit-background-clip: padding-box;
+	   background-clip: padding-box;
+	 }
+	 
+	 .my-bg-bg:not(.disabled):not(:disabled):active, .my-bg-purple.active {
+	   background: #576B95 !important;
+	   color: rgba(255, 255, 255, 0.6) !important;
+	   -webkit-background-clip: padding-box;
+	   background-clip: padding-box;
+	 }
+	 
+	 .my-card-selected {
+	 	background: #C8C8CD !important;
+	 }
+	 
+	 .my-card-select-tap:not(.disabled):not(:disabled):active, .my-card-select-tap.active  {
+	 	background: #C8C8CD !important;
+	 	color: rgba(255, 255, 255, 0.5) !important;
+	 }
+	 
+	 .my-card-selected-text {
+	 	color: cornflowerblue !important;
+	 }

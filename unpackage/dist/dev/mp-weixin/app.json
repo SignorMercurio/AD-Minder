@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/tabBar/index/index",
+    "pages/tabBar/training/training",
+    "pages/tabBar/community/community",
+    "pages/tabBar/my/my",
+    "pages/login/login",
+    "pages/login/register",
+    "pages/login/retrieve",
+    "pages/chose-test/chose-test",
+    "pages/show-score/show-score",
+    "pages/start-test/start-test",
+    "pages/list-detail/list-detail",
+    "pages/article-detail/article-detail",
+    "pages/post-article/post-article",
+    "pages/new-msg/new-msg",
+    "pages/feedback/feedback"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "AD Minder",
+    "navigationBarBackgroundColor": "#8bc34a",
+    "backgroundColor": "#f8f8f8",
+    "autoBackButton": false
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#8bc34a",
+    "borderStyle": "white",
+    "backgroundColor": "#f8f8f8",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabBar/training/training",
+        "iconPath": "static/dashboard.png",
+        "selectedIconPath": "static/dashboard1.png",
+        "text": "训练"
+      },
+      {
+        "pagePath": "pages/tabBar/community/community",
+        "iconPath": "static/comment.png",
+        "selectedIconPath": "static/comment1.png",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/tabBar/my/my",
+        "iconPath": "static/user.png",
+        "selectedIconPath": "static/user1.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

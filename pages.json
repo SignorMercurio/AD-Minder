@@ -1,0 +1,157 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/tabBar/index/index",
+            "style" : {
+                "navigationBarTitleText" : "首页",
+                "enablePullDownRefresh" : true
+            }
+        },
+        {
+            "path" : "pages/tabBar/training/training",
+            "style" : {
+                "navigationBarTitleText" : "训练"
+            }
+        },
+        {
+            "path" : "pages/tabBar/community/community",
+            "style" : {
+                "navigationBarTitleText" : "社区",
+                "enablePullDownRefresh" : true
+            }
+        },
+        {
+            "path" : "pages/tabBar/my/my",
+            "style" : {
+                "navigationBarTitleText" : "我的"
+            }
+        },
+        {
+            "path" : "pages/login/login",
+            "style" : {
+                "navigationBarTitleText" : "登录"
+            }
+        },
+        {
+            "path" : "pages/login/register",
+            "style" : {
+                "navigationBarTitleText" : "注册"
+            }
+        },
+        {
+            "path" : "pages/login/retrieve",
+            "style" : {
+                "navigationBarTitleText" : "重置密码"
+            }
+        },
+		{
+			"path" : "pages/chose-test/chose-test",
+			"style" : {
+				"navigationBarTitleText" : "选择自主测试"
+			}
+		},
+		{
+			"path" : "pages/show-score/show-score",
+			"style" : {
+				"navigationBarTitleText" : "",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor": "#f8f8f8"
+			}
+		},
+		{
+			"path": "pages/start-test/start-test",
+			"backgroundColor":"#FFFFFF",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": false,
+						"buttons": [{
+							"type": "close",
+							"float": "left"
+						}]
+					}
+				},
+				"h5": {
+					"titleNView": {
+						"autoBackButton": false,
+						"buttons": [{
+							"type": "close",
+							"float": "left"
+						}]
+					}
+				}
+			}
+		},
+        {
+            "path" : "pages/list-detail/list-detail",
+            "style" : {
+                "navigationBarTitleText" : "文章详情"
+            }
+        },
+        {
+            "path" : "pages/article-detail/article-detail",
+            "style" : {
+                "navigationBarTitleText" : "详细信息",
+                "enablePullDownRefresh" : true
+            }
+        },
+        {
+            "path" : "pages/post-article/post-article",
+            "style" : {
+                "navigationBarTitleText" : "发布"
+            }
+        },
+        {
+            "path" : "pages/new-msg/new-msg",
+            "style" : {
+                "navigationBarTitleText" : "新消息通知"
+            }
+        },
+        {
+            "path" : "pages/feedback/feedback",
+            "style" : {
+				"navigationBarTitleText" : "问题反馈"
+			}
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "white",
+        "navigationBarTitleText" : "AD Minder",
+        "navigationBarBackgroundColor" : "#8bc34a",
+        "backgroundColor" : "#f8f8f8",
+		"autoBackButton": false
+    },
+    "tabBar" : {
+        "color" : "black",
+        "selectedColor" : "#8bc34a",
+        "borderStyle" : "white",
+        "backgroundColor" : "#f8f8f8",
+        "list" : [
+            {
+                "pagePath" : "pages/tabBar/index/index",
+                "iconPath" : "static/home.png",
+                "selectedIconPath" : "static/home1.png",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/tabBar/training/training",
+                "iconPath" : "static/dashboard.png",
+                "selectedIconPath" : "static/dashboard1.png",
+                "text" : "训练"
+            },
+            {
+                "pagePath" : "pages/tabBar/community/community",
+                "iconPath" : "static/comment.png",
+                "selectedIconPath" : "static/comment1.png",
+                "text" : "社区"
+            },
+            {
+                "pagePath" : "pages/tabBar/my/my",
+                "iconPath" : "static/user.png",
+                "selectedIconPath" : "static/user1.png",
+                "text" : "我的"
+            }
+        ]
+    }
+}

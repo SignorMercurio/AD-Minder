@@ -1,0 +1,17 @@
+
+view {
+	text-align: center !important;
+}
+view.has-mgt-61 {
+	margin-top: 80rpx !important;
+}
+view.my-mgt-infty {
+	margin-top: 200rpx !important;
+}
+view.my-mgt-infty ._button {
+	display: inline-block;
+	width: 42%;
+	margin-left: 3%;
+	/*  margin-right: 0%*/
+}
+

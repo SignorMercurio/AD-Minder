@@ -1,0 +1,2 @@
+<import src="./show-score.vue.wxml" />
+    <template is="05cb4216" data="{{ ...$root['0'], $root }}"/>
